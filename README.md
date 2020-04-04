@@ -1,7 +1,9 @@
 # gcj-python3-template
 My Python3 template for Google Code Jam
 
-## main.py
+## Preview
+
+### main.py
 
 ```python
 # use `log(...)` to print data when debugging
@@ -40,7 +42,7 @@ if __name__ == '__main__':
     main()
 ```
 
-## main-interactive.py
+### main-interactive.py
 
 ```python
 # Usage: python interactive_runner.py python local_testing_tool.py 0 -- python3 main-interactive.py
