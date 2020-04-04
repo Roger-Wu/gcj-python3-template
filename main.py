@@ -17,14 +17,19 @@ def main():
         print("Case #{}: {}".format(case_idx, ans))
 
 def solve():
+    # example for reading input
     N = read_int()
     S = read_str()
     R, C = read_int_list()
     M = read_lines(N, read_int_list)
 
+    # solve the problem here
+    ans = 0
+
+    # example for printing something when debugging
     log(M)
 
-    return 0
+    return ans
 
 if __name__ == '__main__':
     main()

@@ -1,4 +1,4 @@
-# usage: python interactive_runner.py python local_testing_tool.py 0 -- python3 main.py
+# Usage: python interactive_runner.py python local_testing_tool.py 0 -- python3 main-interactive.py
 
 import sys
 
@@ -29,11 +29,15 @@ def main():
             sys.exit()
 
 def solve(N):
+    # solve the problem here
+    ans = 0
+
+    # example for querying something
     query_data = 1
     response = query(query_data, read_int)
-    log_to_file("query {} get {}".format(query_data, response))
 
-    ans = 1
+    # example for writing something to a file when debugging
+    log_to_file("query {} get {}".format(query_data, response))
 
     return ans
 
